@@ -1,0 +1,18 @@
+Imap Plugin for Nagios
+
+Requirements:
+- Python3
+
+How To install:
+- Download zip
+- Extract on your plugin dir
+- Enjoy
+
+How to Use:
+check_imap [-h] [-host HOST] [-c C] [-p P] [-ssl SSL] [-w W]
+
+  -host HOST  Host
+  -c C        Critical (float)
+  -p P        Port
+  -ssl SSL    Ssl On
+  -w W        Warning (float)
